@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: tunning;
+    src: url(/font/ChannelTuning.ttf);
+}
+
+html,body{
+    height: 100%;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    max-width:1920px;
+    background-color: rgba(86, 86, 95, 0.761);
+}
+.border{
+    border: 1px solid black;
+}
+.parentcontainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    background-color: rgb(86, 86, 95);
+}
+.soncontainer{
+    height:70%;
+    width: 40%;
+    display: grid;
+    grid-template-columns: 100%;
+   
+    
+}
+
+.title{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: tunning;
+    font-style: oblique;
+    font-weight:lighter ;
+    color:rgb(208, 167, 19);
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    
+
+}
+.buttonContainer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+
+    height: 50%;
+    width: 100%;
+    
+    .button{
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+       
+        height: 90%;
+        background-color: rgba(57, 57, 58, 0.773);
+        width: 45%;
+        transition: 0.75s;
+        &:hover{
+            transition: 0.75s;
+            opacity: 50%;
+            cursor: pointer;
+        }
+        p{
+            user-select: none;
+            font-size: 40px;
+            
+            font-family:fantasy ;
+
+            &:hover{
+            cursor: pointer;
+            }
+        }
+
+    }
+}
