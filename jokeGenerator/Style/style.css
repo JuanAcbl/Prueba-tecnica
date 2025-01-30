@@ -15,8 +15,7 @@ html,body{
 body{
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;    
     max-width:1920px;
     background-color: rgba(86, 86, 95, 0.761);
 }
@@ -37,9 +36,7 @@ body{
     height:70%;
     width: 40%;
     display: grid;
-    grid-template-columns: 100%;
-   
-    
+    grid-template-columns: 100%;    
 }
 
 .title{
@@ -61,15 +58,12 @@ body{
     align-items: center;
     height: 100%;
     width: 100%;
-    
-
 }
 .buttonContainer{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   gap: 10px;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
     height: 50%;
     width: 100%;
     
